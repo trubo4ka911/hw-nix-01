@@ -1,0 +1,93 @@
+/* TASK 1 */
+div {
+  margin: 8px;
+}
+input:checked + label {
+  color: red;
+}
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}
+/* TASK 2 */
+.task-second {
+        list-style: none;
+        width: 300px;
+}
+.task-second li:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    color: deepPink;
+    font-family: "Gentium Book Basic", serif;
+}
+.task-second li:after {
+    content: url(images/arrow.svg);
+    display: inline-block;
+    width: 10px;
+    margin-left: 10px;
+}
+.task-second li:nth-child(3n+3) {
+    color: #fffb00;
+}
+.task-second li:nth-child(5n+5):hover {
+    background-color:#0051ff;
+}
+/* TASK 3 */
+.new::first-line {
+    color: white;
+    background: rgb(107, 230, 107);
+}
+.new::before {
+    content: "«";
+    color: rgb(11, 11, 230);
+}
+.new::after {
+    content: "»";
+    color: red;
+  }
+  .task-third p:first-of-type:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    color: deepPink;
+    font-family: "Gentium Book Basic", serif;
+}
+
+.task-third p:first-letter {
+    font-size: 2.5em;
+}
+a {
+    color: green;
+    text-decoration: none;
+}
+.task-third a:hover:before {
+    color: red;
+    font-size: 24px;
+    content: "!!!";
+}
+/* TASK 4*/
+.task-fourth {
+    background: repeating-linear-gradient(45deg, #7fffd4 10%, #f0ffff 30%);
+}
+
+a[href*="https://htmlweb.ua/"] {
+color: rgb(61, 0, 61);
+font-weight: bold;
+}
+a[href*="http://htmlbook/css"]:first-child {
+    background: linear-gradient(to bottom, blue, pink);
+}
+a[href*="/css"] {
+    border: 3px inset transparent;
+}
+a[href*="/css"]:not(:first-child):hover {
+    border: 3px inset #E00000;
+border-radius: 0px 40px 0px 40px;
+}
+.task-fourth a:last-child:hover {
+font-weight: bold;
+color: #E00000;
+background-color: green;
+}
+
+
+    
