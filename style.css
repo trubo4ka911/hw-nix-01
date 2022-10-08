@@ -69,11 +69,11 @@ a {
     background: repeating-linear-gradient(45deg, #7fffd4 10%, #f0ffff 30%);
 }
 
-a[href*="https://htmlweb.ua/"] {
+a[href*="https://htmlweb.ru/"] {
 color: rgb(61, 0, 61);
 font-weight: bold;
 }
-a[href*="http://htmlbook/css"]:first-child {
+a[href*="http://htmlbook.in.ua/css"]:first-child {
     background: linear-gradient(to bottom, blue, pink);
 }
 a[href*="/css"] {
